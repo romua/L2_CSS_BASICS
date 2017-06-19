@@ -39,12 +39,12 @@ article {
 section  p:first-child {
 	padding-top: 11px;
 }
-p {	
+.row-section p {	
 	color: white;
 	text-transform: uppercase;
 	padding-top: 71px;
 }
-p:nth-child(2):first-letter {
+.row-section p:nth-child(2):first-letter {
 
 	font-size: 6em;
 }
@@ -128,11 +128,12 @@ article:hover section {
 
 }
 #expanded:target{
+	
+	
 	display: block;
 	background-color: #f7f7f7;
 	border:  1px solid black;
 	width: 90%;
-	
 	max-height: 300px;
 	padding: 0px 0px 90px 0px;
 	margin-top: 10px;
@@ -140,7 +141,8 @@ article:hover section {
 }
 
 
-#expanded p {
+#expanded header p {
+	margin-top: 29px;
 	color: #39C2D7;
 	font-size: 2em;
 	font-weight: bold;
