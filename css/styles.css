@@ -42,10 +42,11 @@ section  p:first-child {
 p {	
 	color: white;
 	text-transform: uppercase;
-
+	padding-top: 71px;
 }
-p:nth-child(2) {
-	font-size: 4em;
+p:nth-child(2):first-letter {
+
+	font-size: 6em;
 }
 article section {
 	
